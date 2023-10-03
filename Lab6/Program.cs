@@ -7,7 +7,7 @@ namespace Lab6
         static void Main(string[] args)
         {
             //task 1
-            //class Student
+            //Student.cs
             //---
 
             //task 2
