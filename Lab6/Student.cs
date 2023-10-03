@@ -39,10 +39,7 @@ namespace Lab6
         ~Student() { Console.WriteLine($"Student age:{age}, gender:{gender}, scholarship:{scholarship} - has deleted"); }
         //---
 
-        public void PrintData()
-        {
-            Console.WriteLine($"Age: {age}, gender: {gender}, scholarship: {scholarship}");
-        }
+        public void PrintData() { Console.WriteLine($"Age: {age}, gender: {gender}, scholarship: {scholarship}"); }
 
         public void SetAge(int age) => this.age = age;
         public void SetGender(string gender) => this.gender = gender;
